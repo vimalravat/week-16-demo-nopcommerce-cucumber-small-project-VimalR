@@ -1,0 +1,2 @@
+2022-12-17 13:12:373 INFO  HomePage :37 - Clicking on login link : [[ChromeDriver: chrome on WINDOWS (ba9272d8a7411146b4d80fc9e311923f)] -> link text: Log in]
+2022-12-17 13:12:423 INFO  LoginPage :44 - Getting text from : [[ChromeDriver: chrome on WINDOWS (ba9272d8a7411146b4d80fc9e311923f)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]

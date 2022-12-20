@@ -1,0 +1,1746 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5397592400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "verify User Should Navigate To Computer Page Successfully",
+        "description": "",
+        "id": "computer-page-test;verify-user-should-navigate-to-computer-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 742061900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 101696500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Computer page",
+            "match": {
+              "location": "ComputerSteps.iAmOnComputerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055082100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Menu Tab \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 21
+                }
+              ],
+              "location": "ComputerSteps.iClickOnMenuTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43332800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate computers page successfully",
+            "match": {
+              "location": "ComputerSteps.iShouldNavigateComputersPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@computer"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2551674600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "verify User Should Navigate To Desktop Page Successfully",
+        "description": "",
+        "id": "computer-page-test;verify-user-should-navigate-to-desktop-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 678789700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on Computer page",
+            "match": {
+              "location": "ComputerSteps.iAmOnComputerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1015677600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Menu Tab \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 21
+                }
+              ],
+              "location": "ComputerSteps.iClickOnMenuTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 391442700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click On subMenu \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iClickOnSubMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50195400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify desktop page displayed successfully",
+            "match": {
+              "location": "ComputerSteps.verifyDesktopPageDisplayedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@computer"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2334426700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "verify That User Should build Own Computer And Add To Cart Successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-own-computer-and-add-to-cart-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 717030900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 39100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on Computer page",
+            "match": {
+              "location": "ComputerSteps.iAmOnComputerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 916992000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Menu Tab \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 21
+                }
+              ],
+              "location": "ComputerSteps.iClickOnMenuTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388126800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click On subMenu \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iClickOnSubMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 756061500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select Product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 18
+                }
+              ],
+              "location": "ComputerSteps.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109000900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i select Processor \"2.2 GHz Intel Pentium Dual-Core E2200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.2 GHz Intel Pentium Dual-Core E2200",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104594800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i select ram \"2 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77143800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i select hdd \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71150700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "i select os \"Vista Home [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Home [+$50.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerSteps.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72820800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "i select software \"Microsoft Office [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Microsoft Office [+$50.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerSteps.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68096300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Add to cart  button",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289480400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see the  confirmation message",
+            "match": {
+              "location": "ComputerSteps.iShouldSeeTheConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@computer"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2813214800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "verify That User Should build Own Computer And Add To Cart Successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-own-computer-and-add-to-cart-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 674098200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on Computer page",
+            "match": {
+              "location": "ComputerSteps.iAmOnComputerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 912893600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Menu Tab \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 21
+                }
+              ],
+              "location": "ComputerSteps.iClickOnMenuTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 798534600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click On subMenu \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iClickOnSubMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1043486400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select Product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 18
+                }
+              ],
+              "location": "ComputerSteps.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77356600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i select Processor \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97137100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i select ram \"4GB [+$20.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4GB [+$20.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91568200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i select hdd \"400 GB [+$100.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400 GB [+$100.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85923500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "i select os \"Vista Premium [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Premium [+$60.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerSteps.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97328800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "i select software \"Acrobat Reader [+$10.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Acrobat Reader [+$10.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerSteps.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67224400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Add to cart  button",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294457100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see the  confirmation message",
+            "match": {
+              "location": "ComputerSteps.iShouldSeeTheConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@computer"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1972321600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "verify That User Should build Own Computer And Add To Cart Successfully",
+        "description": "",
+        "id": "computer-page-test;verify-that-user-should-build-own-computer-and-add-to-cart-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 721411000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on Computer page",
+            "match": {
+              "location": "ComputerSteps.iAmOnComputerPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 931832600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Menu Tab \"Computers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Computers",
+                  "offset": 21
+                }
+              ],
+              "location": "ComputerSteps.iClickOnMenuTab(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797032000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click On subMenu \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iClickOnSubMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176143100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select Product \"Build your own computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Build your own computer",
+                  "offset": 18
+                }
+              ],
+              "location": "ComputerSteps.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69698800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i select Processor \"2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]",
+                  "offset": 20
+                }
+              ],
+              "location": "ComputerSteps.iSelectProcessor(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92351700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i select ram \"8GB [+$60.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8GB [+$60.00]",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectRam(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75605600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "i select hdd \"320 GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "320 GB",
+                  "offset": 14
+                }
+              ],
+              "location": "ComputerSteps.iSelectHdd(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67748700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "i select os \"Vista Home [+$50.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vista Home [+$50.00]",
+                  "offset": 13
+                }
+              ],
+              "location": "ComputerSteps.iSelectOs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97083800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "i select software \"Total Commander [+$5.00]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Total Commander [+$5.00]",
+                  "offset": 19
+                }
+              ],
+              "location": "ComputerSteps.iSelectSoftware(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79592400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Add to cart  button",
+            "match": {
+              "location": "ComputerSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241378300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I should see the  confirmation message",
+            "match": {
+              "location": "ComputerSteps.iShouldSeeTheConfirmationMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@computer"
+          }
+        ]
+      }
+    ],
+    "name": "Computer page test",
+    "description": "As user I want to open computer page into nop commerce website",
+    "id": "computer-page-test",
+    "keyword": "Feature",
+    "uri": "computerpage.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2392989300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify User Should Navigate To Login Page",
+        "description": "",
+        "id": "login-test;verify-user-should-navigate-to-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 774169300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 52200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am On login Page",
+            "match": {
+              "location": "LoginSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449914600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click On login Link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42316400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Welcome Message displayed",
+            "match": {
+              "location": "LoginSteps.welcomeMessageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2356936700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify Error Message With Invalid Credentials",
+        "description": "",
+        "id": "login-test;verify-error-message-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 689061900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am On login Page",
+            "match": {
+              "location": "LoginSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 818445100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click On login Link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93490200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter email \"prime1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime1234@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84427300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter password \"prime123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime123",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 752804000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45050600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see error message displayed",
+            "match": {
+              "location": "LoginSteps.iShouldSeeErrorMessageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2434747800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify That User Should LogIn SuccessFully With Valid Credentials",
+        "description": "",
+        "id": "login-test;verify-that-user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 900421100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am On login Page",
+            "match": {
+              "location": "LoginSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 489271700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click On login Link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94333800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email \"prime1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime1234@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82435600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password \"Prime123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime123",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309983300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20027776400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[normalize-space()\u003d\u0027Log out\u0027]\"}\n  (Session info: chrome\u003d108.0.5359.125)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.6.0\u0027, revision: \u002779f1c02ae20\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [532529c686c78cee999aec86924e1c4c, findElement {using\u003dxpath, value\u003d//a[normalize-space()\u003d\u0027Log out\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64921/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 532529c686c78cee999aec86924e1c4c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.nopcommerce.demo.pages.HomePage.isLogOutLinkDisplay(HomePage.java:77)\r\n\tat com.nopcommerce.demo.steps.LoginSteps.iShouldSeeLogoutLinkDisplayed(LoginSteps.java:44)\r\n\tat ✽.Then I should  see Logout link displayed(loginpage.feature:24)\r\n",
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I should  see Logout link displayed",
+            "match": {
+              "location": "LoginSteps.iShouldSeeLogoutLinkDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3182816200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "verify That User Should LogOut SuccessFully",
+        "description": "",
+        "id": "login-test;verify-that-user-should-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 661171400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am On login Page",
+            "match": {
+              "location": "LoginSteps.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 409010400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click On login Link",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84962000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter email \"prime123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81242900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter password \"Prime123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime123",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338143900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 325672100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click On logout link",
+            "match": {
+              "location": "LoginSteps.iClickOnLogoutLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50501900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "i should see login link is displayed",
+            "match": {
+              "location": "LoginSteps.iShouldSeeLoginLinkIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "loginpage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1996649300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "mandatory fields are required",
+        "description": "",
+        "id": "register-test;mandatory-fields-are-required",
+        "after": [
+          {
+            "result": {
+              "duration": 704326100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on register page",
+            "match": {
+              "location": "RegisterSteps.iAmOnRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 417676200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81565000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on registration buttonn",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegistrationButtonn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64837800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see First name is required \"FirstName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FirstName",
+                  "offset": 37
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeeFirstNameIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51214400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see last name is required \"LastName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LastName",
+                  "offset": 36
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeeLastNameIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62379400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see email is required \"Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 32
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeeEmailIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71699500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see password is required \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 35
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeePasswordIsRequired(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84798100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see  confirm password is required \"ConfirmPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ConfirmPassword",
+                  "offset": 44
+                }
+              ],
+              "location": "RegisterSteps.iShouldSeeConfirmPasswordIsRequired(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2622360800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "verify That User Should Create Account Successfully",
+        "description": "",
+        "id": "register-test;verify-that-user-should-create-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 669328900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on register page",
+            "match": {
+              "location": "RegisterSteps.iAmOnRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 444319400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72632500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select Gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterSteps.iSelectGender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73965600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter first name  \"prime\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime",
+                  "offset": 21
+                }
+              ],
+              "location": "RegisterSteps.iEnterFirstName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82248000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter last name \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterSteps.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264758400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select date of birth \"22\",\"February\",\"1980\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22",
+                  "offset": 24
+                },
+                {
+                  "val": "February",
+                  "offset": 29
+                },
+                {
+                  "val": "1980",
+                  "offset": 40
+                }
+              ],
+              "location": "RegisterSteps.iSelectDateOfBirth(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44385800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select Gender \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Male",
+                  "offset": 17
+                }
+              ],
+              "location": "RegisterSteps.iSelectGender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89917100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter email \"prime1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prime1234@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterSteps.iEnterEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86033900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I enter password \"Prime123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime123",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82793900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter Confirm password \"Prime123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime123",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.iEnterConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540912800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on registration button",
+            "match": {
+              "location": "RegisterSteps.iClickOnRegistrationButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38708900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see registration message",
+            "match": {
+              "location": "RegisterSteps.iShouldSeeRegistrationMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322677800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on continue button",
+            "match": {
+              "location": "RegisterSteps.iClickOnContinueButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Test",
+    "description": "\r\nAs user I want to navigate register into nop commerce website\r\n\r\nScenario : verify User Should Navigate To Register Page Successfully\r\n Given  I am on register page\r\n  When I click on register link\r\n  Then I should see register page is displayed",
+    "id": "register-test",
+    "keyword": "Feature",
+    "uri": "registerpage.feature"
+  }
+]
